@@ -20,3 +20,14 @@ const citrus = ["Lime", "Lemon", "Orange"];
 const fruits = ["Apple", "Banana", ...citrus, "Melon"];
 
 console.log(fruits);
+
+const fullName = {
+  fName: "James",
+  lName: "Bond"
+};
+const User = {
+  ...fullName,
+  id: 1,
+  username: "jamesbond007"
+};
+console.log(User);

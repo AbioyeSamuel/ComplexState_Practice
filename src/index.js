@@ -15,3 +15,8 @@ ReactDOM.render(<App />, document.getElementById("root"));
 //4. Handing events
 
 //Spread Operator
+
+const citrus = ["Lime", "Lemon", "Orange"];
+const fruits = ["Apple", "Banana", ...citrus, "Melon"];
+
+console.log(fruits);
